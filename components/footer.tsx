@@ -26,7 +26,7 @@ const Footer = () => {
     {
       name: "Email",
       icon: <Mail size={20} />,
-      href: "mailto:maydika.asslam@example.com",
+      href: "mailto:maaydikaa@gmail.com",
     },
   ]
 
@@ -104,7 +104,7 @@ const Footer = () => {
           viewport={{ once: true }}
           className="mt-12 pt-6 border-t border-border text-center text-sm text-muted-foreground"
         >
-          &copy; {currentYear} Maydika Asslam. All rights reserved.
+          &copy; {currentYear} Maydika Aslam. All rights reserved.
         </motion.div>
       </div>
     </footer>

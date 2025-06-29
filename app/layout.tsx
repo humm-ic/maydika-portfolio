@@ -11,9 +11,8 @@ import BackgroundAnimation from "@/components/background-animation"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Maydika Asslam | UI/UX Designer | Graphic Designer",
-  description: "Portfolio profesional Maydika Asslam, seorang UI/UX Designer dan Graphic Designer",
-    generator: 'v0.dev'
+  title: "Maydika Aslam | UI/UX Designer | Graphic Designer",
+  description: "Portfolio profesional Maydika Aslam, seorang UI/UX Designer dan Graphic Designer",
 }
 
 export default function RootLayout({

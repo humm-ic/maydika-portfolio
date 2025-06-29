@@ -70,7 +70,7 @@ export const ContactSection = () => {
       setComments([newComment, ...comments])
       setCommentData({ name: "", comment: "" })
       toast({
-        title: "Komentar Ditambahkan!",
+        title: "Komentar Ditambahkan",
         description: "Terima kasih atas feedback Anda.",
       })
     }
@@ -127,13 +127,13 @@ export const ContactSection = () => {
           >
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-6">Kirim Pesan</h3>
+                <h3 className="text-xl font-bold mb-6">Contact Me</h3>
                 <form onSubmit={handleFormSubmit} className="space-y-4">
                   <div>
                     <Input
                       type="text"
                       name="name"
-                      placeholder="Nama Lengkap"
+                      placeholder="Your Name"
                       value={formData.name}
                       onChange={handleFormChange}
                       required
@@ -152,7 +152,7 @@ export const ContactSection = () => {
                   <div>
                     <Textarea
                       name="message"
-                      placeholder="Pesan Anda"
+                      placeholder="your message"
                       rows={5}
                       value={formData.message}
                       onChange={handleFormChange}
@@ -161,7 +161,7 @@ export const ContactSection = () => {
                   </div>
                   <Button type="submit" className="w-full">
                     <Send size={16} className="mr-2" />
-                    Kirim Pesan
+                    Send Message
                   </Button>
                 </form>
               </CardContent>
@@ -247,12 +247,12 @@ export const ContactSection = () => {
 
                 <div className="mt-8 p-6 bg-secondary rounded-lg">
                   <h4 className="font-medium mb-2">Email Langsung</h4>
-                  <p className="text-muted-foreground">maydika.asslam@gmail.com</p>
+                  <p className="text-muted-foreground">maaydikaa@gmail.com</p>
                 </div>
 
                 <div className="mt-6 p-6 bg-secondary rounded-lg">
                   <h4 className="font-medium mb-2">Lokasi</h4>
-                  <p className="text-muted-foreground">Padang, Indonesia</p>
+                  <p className="text-muted-foreground">Bogor, Indonesia</p>
                 </div>
               </CardContent>
             </Card>

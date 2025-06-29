@@ -113,10 +113,10 @@ export const PortfolioSection = () => {
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5, delay: index * 0.1 }}
                       viewport={{ once: true }}
-                      className="min-w-[300px] md:min-w-[400px] snap-center"
+                      className="min-w-[800px] md:min-w-[400px] snap-center"
                     >
                       <Card className="overflow-hidden card-hover">
-                        <div className="relative aspect-[4/3]">
+                        <div className="relative aspect-[6/8]">
                           <Image
                             src={certificate.image || "/placeholder.svg"}
                             alt={certificate.title}
@@ -157,7 +157,7 @@ export const PortfolioSection = () => {
                           src={tech.icon || "/placeholder.svg"}
                           alt={tech.name}
                           width={48}
-                          height={48}
+                          height={88}
                           className="object-contain"
                         />
                       </div>

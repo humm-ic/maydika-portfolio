@@ -11,17 +11,17 @@ export const AboutSection = () => {
   const stats = [
     {
       title: "Total Projects",
-      value: "50+",
+      value: "5+",
       href: "#portfolio",
     },
     {
       title: "Certificates",
-      value: "12",
+      value: "3",
       href: "#portfolio",
     },
     {
       title: "Experience",
-      value: "5+",
+      value: "2+",
       href: "#portfolio",
     },
   ]
@@ -62,7 +62,7 @@ export const AboutSection = () => {
             <div className="flex flex-wrap gap-4 mb-12">
               <Button asChild>
                 <a
-                  href="https://drive.google.com/file/d/example/view"
+                  href="https://drive.google.com/file/d/16WJ_RELddHvWJ3guExNv4pyO08i49Kdp/view?usp=drivesdk"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2"
@@ -111,7 +111,7 @@ export const AboutSection = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl transform rotate-6"></div>
               <div className="absolute inset-0 overflow-hidden rounded-l">
                 <Image
-                  src="https://i.pinimg.com/736x/83/d2/22/83d222c597f68868513962ad637fb787.jpg"
+                  src="dika_au.jpg"
                   alt="Maydika Asslam"
                   fill
                   className="object-cover"
