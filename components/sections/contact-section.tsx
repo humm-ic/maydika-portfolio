@@ -142,7 +142,7 @@ export const ContactSection = () => {
                   <div>
                     <Input
                       type="email"
-                      name="email"
+                      name="Your email"
                       placeholder="Email"
                       value={formData.email}
                       onChange={handleFormChange}
